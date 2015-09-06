@@ -1,0 +1,26 @@
+{
+  "name": "survey-arch",
+  "version": "1.0.0",
+  "description": "Example arch for a survey app",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_PATH=lib/survey-arch node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rusintez/survey-arch.git"
+  },
+  "author": "Vladimir Popov <rusintez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rusintez/survey-arch/issues"
+  },
+  "homepage": "https://github.com/rusintez/survey-arch",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.5",
+    "mongoose-timestamps": "0.0.1"
+  }
+}
